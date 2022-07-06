@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background: linear-gradient(to right, #eeaeca, #94bbe9);
+}
+header {
+  width: 100%;
+  background: linear-gradient(to right, rgb(75, 32, 2, 95) 15%,#159a06,#119e03, #0b5c02);
+  display: flex;
+  justify-content: space-between;
+  height: 110px;
+}
+header h1 {
+  font-family: verdana;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+img {
+  display: flex;
+  height: 100%;
+  width: 120px;
+  margin-left: 0px;
+}
+.menu {
+  background: linear-gradient(to right, #eeaeca, #94bbe9) ;
+  list-style: none;
+  border: 1px solid black;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+.menu li a {
+  display: inline-flex;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  border: 1px solid black;
+  padding: 20px;
+  background: linear-gradient(#3f5efb,#fc466b);
+}
+.menu li {
+  display: inline-flex;
+}
+.menu li a:hover {
+  background-color: yellow;
+  color: black;
+}
+table {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+caption h1 {
+  margin: 15px 0;
+}
+caption p {
+  margin-bottom: 15px;
+}
+.funciones {
+  display: inline-flexbox;
+  text-align: center;
+  font-size: 35px;
+  font-family: sans-serif;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.menu-funciones {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 0 600px 40px 600px;
+  padding: 10px 0;
+}
+button {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+.encender button:hover {
+  background-color: green;
+  color: white;
+}
+.apagar button:hover {
+  background-color: red;
+  color: white;
+}
