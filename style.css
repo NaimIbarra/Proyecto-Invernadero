@@ -91,3 +91,6 @@ button {
   background-color: red;
   color: white;
 }
+body{
+  background: fixed;
+}
