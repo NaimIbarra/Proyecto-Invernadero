@@ -21,9 +21,10 @@
     <div class="funciones">
       <div class="menu-funciones">
         <p>Encender ventilador</p>
-        <div class="encender"><button type="submit">Encender</button></div>
+        <div class="encender">
+          <button onclick="encenderCooler()">Encender</button></div>
         <div class="apagar">
-          <button type="submit">Apagar</button>
+          <button onclick="apagarCooler()">Apagar</button>
         </div>
       </div>
       <div class="menu-funciones">
@@ -49,5 +50,18 @@
     <video id="videoBG" autoplay muted loop>
       <source src="Imagenes/nature.mp4" type="video/mp4" />
     </video>
+    <script>
+      function encenderCooler() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "control_cooler.php?estado=encendido", true);
+        xhttp.send();
+      }
+      
+      function apagarCooler() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "control_cooler.php?estado=apagado", true);
+        xhttp.send();
+      }
+      </script>
   </body>
 </html>
